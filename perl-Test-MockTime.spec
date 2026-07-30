@@ -9,7 +9,7 @@ Summary:	Mock time/localtime for testing
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Test-MockTime
-Source0:	https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -43,15 +43,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 0.120.0-2mdv2011.0
-+ Revision: 655228
-- rebuild for updated spec-helper
-
-* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.120.0-1mdv2011.0
-+ Revision: 471258
-- import perl-Test-MockTime
-
-
-* Sun Nov 29 2009 cpan2dist 0.12-1mdv
-- initial mdv release, generated with cpan2dist
